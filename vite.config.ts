@@ -5,7 +5,8 @@ import {defineConfig} from 'vite';
 import {VitePWA} from 'vite-plugin-pwa';
 
 export default defineConfig(() => {
-  return {
+  return
+  base: base: '/pataan-application/',
     plugins: [
       react(),
       tailwindcss(),
